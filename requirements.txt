@@ -1,0 +1,6 @@
+#  D:\ProjectAarya\MLOPs\Code\Ch19 NetworkSecurity\venv <-Env listchrgit init
+
+python-dotenv
+pandas
+numpy
+pymongo
