@@ -4,3 +4,9 @@ python-dotenv
 pandas
 numpy
 pymongo
+setuptools
+certifi
+# -e .
+
+# -e . Looks into setup.py file and installs from there that's why we have also ignore -e . in setup.py so that they don't go in looping structure.
+# Take a note that it is suggestion to write -e . after complete project when uploading to the cloud.
