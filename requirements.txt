@@ -7,6 +7,7 @@ pymongo[srv]==3.11
 setuptools
 certifi
 pymongo
+scikit-learn
 # -e .
 
 # -e . Looks into setup.py file and installs from there that's why we have also ignore -e . in setup.py so that they don't go in looping structure.

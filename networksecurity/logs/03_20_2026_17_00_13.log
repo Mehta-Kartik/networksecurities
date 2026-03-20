@@ -1,0 +1,5 @@
+[2026-03-20 17:00:16,085] 13 networksecurity.logging - INFO - Entered the DataIngestionStage
+[2026-03-20 17:00:19,300] 65 networksecurity.logging - INFO - Performed train test split on the dataframe
+[2026-03-20 17:00:19,304] 66 networksecurity.logging - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-03-20 17:00:19,304] 73 networksecurity.logging - INFO - Exporting train and test file path
+[2026-03-20 17:00:19,632] 83 networksecurity.logging - INFO - Exporting train and test file path
