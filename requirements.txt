@@ -8,6 +8,8 @@ setuptools
 certifi
 pymongo
 scikit-learn
+dill
+pyaml 
 # -e .
 
 # -e . Looks into setup.py file and installs from there that's why we have also ignore -e . in setup.py so that they don't go in looping structure.
