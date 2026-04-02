@@ -1,0 +1,12 @@
+[2026-04-02 19:08:53,268] 17 networksecurity.logging - INFO - Entered the DataIngestionStage
+[2026-04-02 19:09:05,099] 65 networksecurity.logging - INFO - Performed train test split on the dataframe
+[2026-04-02 19:09:05,102] 66 networksecurity.logging - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-04-02 19:09:05,104] 73 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-02 19:09:05,457] 83 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-02 19:09:05,458] 19 networksecurity.logging - INFO - Data Ingestion Completed now turn for Data Validation
+[2026-04-02 19:09:05,466] 25 networksecurity.logging - INFO - Data Validation initialized
+[2026-04-02 19:09:05,527] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-02 19:09:05,528] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-02 19:09:05,528] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-02 19:09:05,529] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-02 19:09:06,109] 27 networksecurity.logging - INFO - Data Validation Completed

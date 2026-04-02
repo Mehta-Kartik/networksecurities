@@ -1,0 +1,17 @@
+[2026-04-02 19:14:30,343] 17 networksecurity.logging - INFO - Entered the DataIngestionStage
+[2026-04-02 19:14:34,949] 65 networksecurity.logging - INFO - Performed train test split on the dataframe
+[2026-04-02 19:14:34,949] 66 networksecurity.logging - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-04-02 19:14:34,954] 73 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-02 19:14:35,315] 83 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-02 19:14:35,315] 19 networksecurity.logging - INFO - Data Ingestion Completed now turn for Data Validation
+[2026-04-02 19:14:35,337] 25 networksecurity.logging - INFO - Data Validation initialized
+[2026-04-02 19:14:35,438] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-02 19:14:35,438] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-02 19:14:35,438] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-02 19:14:35,439] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-02 19:14:35,962] 27 networksecurity.logging - INFO - Data Validation Completed
+[2026-04-02 19:14:35,962] 36 networksecurity.logging - INFO - Data Transformation Initiated
+[2026-04-02 19:14:35,962] 57 networksecurity.logging - INFO - Enter initiate_data_transformation method of DataTransformation class
+[2026-04-02 19:14:35,962] 59 networksecurity.logging - INFO - Started Data Transformation
+[2026-04-02 19:14:36,034] 45 networksecurity.logging - INFO - Entered get_data_transformer_object class
+[2026-04-02 19:14:36,034] 50 networksecurity.logging - INFO - Initialise KNN Imputer with{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'} params
