@@ -1,0 +1,29 @@
+[2026-04-03 18:09:46,781] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-04-03 18:09:46,834] 107 dagshub - INFO - Accessing as Mehta-Kartik
+[2026-04-03 18:09:47,962] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Mehta-Kartik/networksecurities "HTTP/1.1 200 OK"
+[2026-04-03 18:09:49,029] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-04-03 18:09:49,036] 107 dagshub - INFO - Initialized MLflow to track repo "Mehta-Kartik/networksecurities"
+[2026-04-03 18:09:49,039] 107 dagshub - INFO - Repository Mehta-Kartik/networksecurities initialized!
+[2026-04-03 18:09:49,041] 17 networksecurity.logging - INFO - Entered the DataIngestionStage
+[2026-04-03 18:09:56,536] 65 networksecurity.logging - INFO - Performed train test split on the dataframe
+[2026-04-03 18:09:56,538] 66 networksecurity.logging - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-04-03 18:09:56,542] 73 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-03 18:09:58,576] 83 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-03 18:09:58,578] 19 networksecurity.logging - INFO - Data Ingestion Completed now turn for Data Validation
+[2026-04-03 18:09:58,593] 25 networksecurity.logging - INFO - Data Validation initialized
+[2026-04-03 18:09:58,695] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-03 18:09:58,695] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-03 18:09:58,697] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-03 18:09:58,697] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-03 18:10:00,296] 27 networksecurity.logging - INFO - Data Validation Completed
+[2026-04-03 18:10:00,297] 36 networksecurity.logging - INFO - Data Transformation Initiated
+[2026-04-03 18:10:00,298] 57 networksecurity.logging - INFO - Enter initiate_data_transformation method of DataTransformation class
+[2026-04-03 18:10:00,299] 59 networksecurity.logging - INFO - Started Data Transformation
+[2026-04-03 18:10:00,390] 45 networksecurity.logging - INFO - Entered get_data_transformer_object class
+[2026-04-03 18:10:00,391] 50 networksecurity.logging - INFO - Initialise KNN Imputer with{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'} params
+[2026-04-03 18:10:00,451] 49 networksecurity.logging - INFO - Entered the save_object method of mainutils class
+[2026-04-03 18:10:00,471] 55 networksecurity.logging - INFO - Exited the save_object method of MainUtils class
+[2026-04-03 18:10:00,472] 49 networksecurity.logging - INFO - Entered the save_object method of mainutils class
+[2026-04-03 18:10:00,495] 55 networksecurity.logging - INFO - Exited the save_object method of MainUtils class
+[2026-04-03 18:10:00,499] 38 networksecurity.logging - INFO - Data Transformation Completed
+[2026-04-03 18:10:00,500] 43 networksecurity.logging - INFO - Model Training Started

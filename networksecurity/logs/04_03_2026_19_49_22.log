@@ -1,0 +1,6 @@
+[2026-04-03 19:49:29,293] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-04-03 19:49:29,298] 107 dagshub - INFO - Accessing as Mehta-Kartik
+[2026-04-03 19:49:31,535] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Mehta-Kartik/networksecurities "HTTP/1.1 200 OK"
+[2026-04-03 19:49:33,055] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-04-03 19:49:33,428] 107 dagshub - INFO - Initialized MLflow to track repo "Mehta-Kartik/networksecurities"
+[2026-04-03 19:49:33,428] 107 dagshub - INFO - Repository Mehta-Kartik/networksecurities initialized!

@@ -9,6 +9,9 @@ from networksecurity.components.data_validation import DataValidation
 from networksecurity.components.data_transformation import DataTransformation
 from networksecurity.components.model_trainer import ModelTrainer
 
+from dotenv import load_dotenv
+load_dotenv()
+
 if __name__=="__main__":
     try:
         training_pipeline_config=TrainingPipelineConfig()
