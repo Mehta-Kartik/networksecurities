@@ -1,0 +1,21 @@
+[2026-04-03 12:28:59,597] 17 networksecurity.logging - INFO - Entered the DataIngestionStage
+[2026-04-03 12:29:02,406] 65 networksecurity.logging - INFO - Performed train test split on the dataframe
+[2026-04-03 12:29:02,411] 66 networksecurity.logging - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-04-03 12:29:02,411] 73 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-03 12:29:02,900] 83 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-03 12:29:02,905] 19 networksecurity.logging - INFO - Data Ingestion Completed now turn for Data Validation
+[2026-04-03 12:29:02,910] 25 networksecurity.logging - INFO - Data Validation initialized
+[2026-04-03 12:29:02,970] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-03 12:29:02,971] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-03 12:29:02,971] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-03 12:29:02,971] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-03 12:29:03,414] 27 networksecurity.logging - INFO - Data Validation Completed
+[2026-04-03 12:29:03,414] 36 networksecurity.logging - INFO - Data Transformation Initiated
+[2026-04-03 12:29:03,414] 57 networksecurity.logging - INFO - Enter initiate_data_transformation method of DataTransformation class
+[2026-04-03 12:29:03,414] 59 networksecurity.logging - INFO - Started Data Transformation
+[2026-04-03 12:29:03,469] 45 networksecurity.logging - INFO - Entered get_data_transformer_object class
+[2026-04-03 12:29:03,469] 50 networksecurity.logging - INFO - Initialise KNN Imputer with{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'} params
+[2026-04-03 12:29:03,499] 49 networksecurity.logging - INFO - Entered the save_object method of mainutils class
+[2026-04-03 12:29:03,504] 55 networksecurity.logging - INFO - Exited the save_object method of MainUtils class
+[2026-04-03 12:29:03,504] 38 networksecurity.logging - INFO - Data Transformation Completed
+[2026-04-03 12:29:03,509] 43 networksecurity.logging - INFO - Model Training Started

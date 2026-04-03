@@ -5,6 +5,8 @@ import os,sys
 import numpy as np
 import dill
 import pickle
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import r2_score
 
 def read_yaml_file(file_path:str) ->dict:
     try:
@@ -51,5 +53,54 @@ def save_object(file_path:str,obj:object)->None:
             pickle.dump(obj,file_obj)
 
         logger.info("Exited the save_object method of MainUtils class")
+    except Exception as e:
+        raise NetworkSecurityException(e,sys)
+    
+def load_object(file_path:str,)->object:
+    try:
+        if not os.path.exists(file_path):
+            raise Exception(f"The file: {file_path} is not exists")
+        with open(file_path,'rb') as fobj:
+            print(fobj)
+            return pickle.load(fobj)
+    except Exception as e:
+        raise NetworkSecurityException(e,sys)
+    
+def load_numpy_array_data(file_path:str)->object:
+    """
+    load numpy array data from file
+    file_path: str location of file to load
+    return: np.array data loaded
+    """
+    try:
+        with open(file_path,"rb") as fileobj:
+            return np.load(fileobj)
+    except Exception as e:
+        raise NetworkSecurityException(e,sys)
+    
+
+def evaluate_models(X_train,y_train,X_test,y_test,models,params):
+    try:
+        report={}
+        for i in range(len(list(models))):
+            model=list(models.values())[i]
+            para=params[list(models.keys())[i]]
+
+            gs=GridSearchCV(model,para,cv=3)
+            gs.fit(X_train,y_train)
+            model.set_params(**gs.best_params_)
+            model.fit(X_train,y_train)
+
+            y_train_pred=model.predict(X_train)
+            y_test_pred=model.predict(X_test)
+
+            train_model_score=r2_score(y_train,y_train_pred)
+            test_model_score=r2_score(y_test,y_test_pred)
+
+            # CORRECT - iterate over dict items
+            for model_name, model in models.items():
+                # ... train and predict ...
+                report[model_name] = test_model_score  # Use model_name directly
+        return report
     except Exception as e:
         raise NetworkSecurityException(e,sys)

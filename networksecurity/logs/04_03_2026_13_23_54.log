@@ -1,0 +1,28 @@
+[2026-04-03 13:24:00,051] 17 networksecurity.logging - INFO - Entered the DataIngestionStage
+[2026-04-03 13:24:24,192] 65 networksecurity.logging - INFO - Performed train test split on the dataframe
+[2026-04-03 13:24:24,193] 66 networksecurity.logging - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-04-03 13:24:24,194] 73 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-03 13:24:26,268] 83 networksecurity.logging - INFO - Exporting train and test file path
+[2026-04-03 13:24:26,269] 19 networksecurity.logging - INFO - Data Ingestion Completed now turn for Data Validation
+[2026-04-03 13:24:26,285] 25 networksecurity.logging - INFO - Data Validation initialized
+[2026-04-03 13:24:26,351] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-03 13:24:26,351] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-03 13:24:26,351] 32 networksecurity.logging - INFO - Require number of columns=31
+[2026-04-03 13:24:26,352] 33 networksecurity.logging - INFO - DataFrames columns number 31
+[2026-04-03 13:24:26,946] 27 networksecurity.logging - INFO - Data Validation Completed
+[2026-04-03 13:24:26,947] 36 networksecurity.logging - INFO - Data Transformation Initiated
+[2026-04-03 13:24:26,947] 57 networksecurity.logging - INFO - Enter initiate_data_transformation method of DataTransformation class
+[2026-04-03 13:24:26,947] 59 networksecurity.logging - INFO - Started Data Transformation
+[2026-04-03 13:24:26,994] 45 networksecurity.logging - INFO - Entered get_data_transformer_object class
+[2026-04-03 13:24:26,995] 50 networksecurity.logging - INFO - Initialise KNN Imputer with{'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'} params
+[2026-04-03 13:24:27,024] 49 networksecurity.logging - INFO - Entered the save_object method of mainutils class
+[2026-04-03 13:24:27,031] 55 networksecurity.logging - INFO - Exited the save_object method of MainUtils class
+[2026-04-03 13:24:27,033] 38 networksecurity.logging - INFO - Data Transformation Completed
+[2026-04-03 13:24:27,033] 43 networksecurity.logging - INFO - Model Training Started
+[2026-04-03 13:33:52,723] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[2026-04-03 13:33:59,268] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[2026-04-03 13:34:09,390] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[2026-04-03 13:34:27,732] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[2026-04-03 13:35:02,719] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[2026-04-03 13:36:09,013] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create
+[2026-04-03 13:38:11,053] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError("HTTPConnection(host='127.0.0.1', port=5000): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/2.0/mlflow/runs/create

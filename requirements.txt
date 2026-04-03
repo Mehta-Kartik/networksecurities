@@ -3,6 +3,7 @@
 python-dotenv
 pandas
 numpy
+mlflow
 pymongo[srv]==3.11
 setuptools
 certifi
