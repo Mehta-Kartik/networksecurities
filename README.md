@@ -250,16 +250,11 @@ The project stores important outputs in these locations:[1]
 
 ## Future Improvements
 
-- Add a proper `requirements.txt` if it is not already finalized in the repository.[1]
 - Add model versioning and registry workflows in MLflow.[1]
 - Add unit tests and CI validation checks for every pipeline stage.[1]
 - Implement better batch prediction and monitoring flows in `pipeline/batch_prediction.py`.[1]
 - Add authentication and production-grade API security controls.[1]
 - Add automated deployment scripts for EC2 rollout from ECR.[1]
-
-## Notes
-
-A few file and path names in the shared project details appear slightly inconsistent, such as `DockerFile` instead of the conventional `Dockerfile`, and `phisingData.csv` instead of `phishingData.csv`, so you may want to standardize them before publishing the repository.[1]
 
 The logging module also appears to contain commented alternative implementations, which can be cleaned up to make the codebase easier to maintain.[1]
 
