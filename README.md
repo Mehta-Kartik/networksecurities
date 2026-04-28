@@ -89,25 +89,26 @@ The root route redirects to `/docs`, giving you FastAPI's interactive Swagger UI
 ├── setup.py
 ├── data_schema/
 │   └── schema.yaml
-├── cloud/
-│   └── s3_syncer.py
-├── components/
-│   ├── data_ingestion.py
-│   ├── data_validation.py
-│   ├── data_transformation.py
-│   └── model_trainer.py
-├── constant/
-│   └── training_pipeline/
-├── entity/
-│   ├── artifacts.py
-│   └── config_entity.py
-├── exception/
-│   └── exception.py
-├── logging/
-│   └── logger.py
-├── pipeline/
-│   ├── training_pipeline.py
-│   └── batch_prediction.py
+├── networksecurity/
+    ├── cloud/
+    │   └── s3_syncer.py
+    ├── components/
+    │   ├── data_ingestion.py
+    │   ├── data_validation.py
+    │   ├── data_transformation.py
+    │   └── model_trainer.py
+    ├── constant/
+    │   └── training_pipeline/
+    ├── entity/
+    │   ├── artifacts.py
+    │   └── config_entity.py
+    ├── exception/
+    │   └── exception.py
+    ├── logging/
+    │   └── logger.py
+    ├── pipeline/
+    │   ├── training_pipeline.py
+    │   └── batch_prediction.py
 ├── final_models/
 │   ├── model.pkl
 │   └── preprocessing.pkl
